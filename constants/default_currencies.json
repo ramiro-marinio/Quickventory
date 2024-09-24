@@ -1,0 +1,19 @@
+[
+    { "id": 1, "currencyName": "US Dollar", "currencySymbol": "$", "isoCode": "US", "conversionUnit": 1000 },
+    { "id": 2, "currencyName": "Euro", "currencySymbol": "€", "isoCode": "EU", "conversionUnit": 1090 },
+    { "id": 3, "currencyName": "British Pound", "currencySymbol": "£", "isoCode": "GB", "conversionUnit": 1270 },
+    { "id": 4, "currencyName": "Japanese Yen", "currencySymbol": "¥", "isoCode": "JP", "conversionUnit": 7.37 },
+    { "id": 5, "currencyName": "Australian Dollar", "currencySymbol": "AU$", "isoCode": "AU", "conversionUnit": 650 },
+    { "id": 6, "currencyName": "Swiss Franc", "currencySymbol": "CHF", "isoCode": "CH", "conversionUnit": 1150 },
+    { "id": 7, "currencyName": "Argentine Peso", "currencySymbol": "AR$", "isoCode": "AR", "conversionUnit": 0.738 },
+    { "id": 8, "currencyName": "Chinese Yuan", "currencySymbol": "¥", "isoCode": "CN", "conversionUnit": 140 },
+    { "id": 9, "currencyName": "Gold", "currencySymbol": "g Au", "isoCode": null, "conversionUnit": 61600 },
+    { "id": 10, "currencyName": "Silver", "currencySymbol": "g Ag", "isoCode": null, "conversionUnit": 770 },
+    { "id": 11, "currencyName": "Platinum", "currencySymbol": "g Pt", "isoCode": null, "conversionUnit": 30800 },
+    { "id": 12, "currencyName": "Palladium", "currencySymbol": "g Pd", "isoCode": null, "conversionUnit": 65000 },
+    { "id": 13, "currencyName": "Bitcoin", "currencySymbol": "₿", "isoCode": null, "conversionUnit": 29500000 },
+    { "id": 14, "currencyName": "Ethereum", "currencySymbol": "Ξ", "isoCode": null, "conversionUnit": 1870000 },
+    { "id": 15, "currencyName": "Tether", "currencySymbol": "₮", "isoCode": null, "conversionUnit": 1000 },
+    { "id": 16, "currencyName": "BNB", "currencySymbol": "BNB", "isoCode": null, "conversionUnit": 210000 },
+    { "id": 17, "currencyName": "Dogecoin", "currencySymbol": "Ð", "isoCode": null, "conversionUnit": 63 }
+  ]
