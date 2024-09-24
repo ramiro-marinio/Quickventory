@@ -4,13 +4,12 @@ import 'package:intl/intl.dart';
 import 'package:inventory/models/asset.dart';
 import 'package:inventory/models/currency.dart';
 import 'package:inventory/models/person.dart';
+import 'package:inventory/secrets.dart';
 
 class ClaudeProvider extends ChangeNotifier {
-  final apiKey =
-      "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";
   Future<Map<String, dynamic>> createAssetWithAI(
       String prompt, Currency mainCurrency, List<Currency> currencies) async {
-    final client = AnthropicClient(apiKey: apiKey);
+    final client = AnthropicClient(apiKey: anthropicApiKey);
     final createAssetTool = Tool(name: 'create_asset', inputSchema: {
       'type': 'object',
       'description':
@@ -87,7 +86,7 @@ class ClaudeProvider extends ChangeNotifier {
       Currency mainCurrency,
       List<Currency> currencies,
       List<Person> people) async {
-    final client = AnthropicClient(apiKey: apiKey);
+    final client = AnthropicClient(apiKey: anthropicApiKey);
     const createDebtTool = Tool(name: 'create_asset', inputSchema: {
       'type': 'object',
       'description':
